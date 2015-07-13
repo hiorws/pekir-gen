@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <title>Peki Cevap Üreteci</title>
+  </head>
+
+  <body>
+  <h3>{{ welcome_text }}</h3>
+      <form action="/cevap/" method="GET">
+          <input type="submit" value="Cevap Getir">
+      </form>
+{% if reply %}
+ <h4> Cevap : {{ reply }} </h4>
+{% endif %}
+  </body>
+</html>
