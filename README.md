@@ -12,7 +12,11 @@ If you want to contribute, please feel free to add new words to 'replies'.
 
 to run app:
 
-clone the repo and 
+install flask, clone the repo and 
+
+```bash
+sudo pip install Flask
+```
 
 ```python
 python pekir-gen.py
