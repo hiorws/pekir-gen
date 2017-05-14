@@ -9,7 +9,8 @@ from random import randint
 app = Flask(__name__)
 
 replies = [u'peki.', u'pekiiii', u'tamam', u'öptüm', u'görüşürüz', u'yemek masasındayım, haberleşiriz', u'aman be!',
-           u'asıl sana peki.', u'kızdın mı?', u'uyuyacağım ben. iyi geceler.', u'noldu yine?']
+           u'asıl sana peki.', u'kızdın mı?', u'uyuyacağım ben. iyi geceler.', u'noldu yine?',u'oldu o zaman, sonra görüşürüz',
+           u'ben de seni seviyorum']
 
 
 main_text = u"Sevgilinizden gelen \"peki.\" mesajlarina vereceğiniz cevabınız yoksa,\
